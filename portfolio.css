@@ -1,44 +1,90 @@
-body {
+/* 
+
+stylesheet for Jordan Stone's Portfolio
+
+name: portfolio.css
+author: jstone08
+date: 6/2/17
+
+*/
+body, h1, h2, h3, h4 {
 	font-family: sans-serif;
 }
 
-/* id keys */
-#nav {
+.navigation {
 	width: 100%;
-	max-width: 960px;
-	min-width: 890px;
 	height: 60px;
-}
-
-#nav li {
-	display: inline-block;
-	list-style: none;
-	width: 200px;
-	padding-left: 50px;
 	text-align: center;
 }
 
-#name {
-	padding-right: 40px;
+.navigation li {
+	display: inline-flex;
+	text-decoration-line: underline;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-h1, h2, h3 {
-	font-family: sans-serif;
-	padding: 0;
-	margin: 0;
+.navigation li a {
+	color: blue;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#name {
+	text-align: center;
 }
 
 a {
-	display: block;
-	text-decoration: none;
 	color: black;
 }
-
-/* Content */
-#content {
+/* photo formatting */
+#photo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+/* text body */
+#text {
 	position: relative;
 	width: 100%;
 	max-width: 960px;
 	margin: 50px auto;
 	text-align: center;
 }
+
+
+/* resume body */
+#resume {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 50px auto;
+	text-align: left;
+}
+
+
+.resume-title {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+/* resume body */
+.resume li {
+	position: relative;
+	line-height: 22px;
+	width: 100%;
+	max-width: 960px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
